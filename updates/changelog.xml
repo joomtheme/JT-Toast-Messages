@@ -1,1 +1,19 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+	<changelog>
+		<element>jttoastmessages</element>
+		<type>plugin</type>
+		<version>1.0.6</version>
+		<change>
+			<item>Renamed the extension to JT Toast Messages for JED-friendly branding.</item>
+			<item>Changed the plugin element to jttoastmessages.</item>
+			<item>Updated namespace, class name, asset names, media destination, and language constants.</item>
+			<item>Updated the service provider to avoid passing the event dispatcher to the plugin constructor.</item>
+			<item>Added Joomla update server and changelog URLs to the manifest.</item>
+			<item>Declared bootstrap.toast as a Web Asset Manager dependency.</item>
+		</change>
+		<note>
+			<item>This release is intended for Joomla 6.1.x and PHP 8.3 or newer.</item>
+		</note>
+	</changelog>
+</changelogs>
